@@ -77,7 +77,7 @@ h1{
 }
 
 h2{
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2.25rem;
   text-transform: capitalize;
   font-family: var(--secondary-font);
@@ -256,4 +256,47 @@ header nav .container a h1 span{
 .counter-section p{
   color: var(--white-color);
   text-transform: uppercase;
+}
+/* 
+====================================
+        section-3 About
+====================================
+*/
+.about-section{
+  background: var(--white-color);
+}
+
+.about-section .card,
+.about-section .card img{
+  border-radius: 0.625rem;
+}
+
+.about-section .text-sec{
+  padding-left: 2rem;
+}
+
+/* ======== fruit-types section CSS ======== */
+.fruit-types{
+  padding-top: 3.25rem;
+}
+
+.fruit-types ul li{
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 32px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.fruit-types ul li::before{
+  position: absolute;
+  left: -2.1875rem;
+  color: var(--out-color);
+  font-size: 1.25rem;
+  font-family: "font awesome 5 free";
+  content: '\f561';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 750;
 }
