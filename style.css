@@ -315,11 +315,51 @@ header nav .container a h1 span{
 }
 
 .story-section h2{
-  color: var(--out-color);
+  color: var(--primary-color);
   font-family: var(--primary-font);
 }
 
 .story-section button{
   background: var(--third-color);
   border: none;
+}
+/* 
+====================================
+      section-5 explore Fruits
+====================================
+*/
+.explore-fruits .card img{
+  height: 400px;
+  width: 100%;  
+  border-radius: 0.9375rem;
+}
+
+.explore-fruits .card{
+  border: none;
+  background-color: trnasparent;
+  border-radius: 0.9375rem;
+  transition: .5s;
+}
+
+.explore-fruits .card:hover{
+  box-shadow: 10px 12px 15px var(--black-color);
+}
+
+.explore-fruits .card h4{
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.explore-fruits .card span{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--out-color);
+}
+
+.explore-fruits .card span del{
+  color: var(--text-gray);
+  font-size: 1rem;
+  font-weight: 600;
 }
