@@ -400,3 +400,13 @@ header nav .container a h1 span{
   line-height: 2.0687rem;
   padding: 0 11% 0.625rem;
 }
+/* 
+====================================
+      section-7 faq
+====================================
+*/
+.faq h4 span{
+  font-size: 2rem;  
+  color: var(--out-color);
+  margin-right: 0.975rem;
+}
