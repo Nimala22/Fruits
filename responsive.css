@@ -38,7 +38,7 @@
 
 }
 
-@media (max-widht: 767px) {
+@media (max-width: 767px) {
 
   /* Custom CSS */
   h1{
@@ -68,15 +68,26 @@
   }
 
   /* newsletter */
+  .newslettar{
+    width: 80%;
+  }
+
+  .newslettar button.main-btn{
+    width: 100%;
+    margin-top: 1rem;
+  }
 
 
   /* footer link */
-
+  .footer .footer-link,
+  .footer a i{
+    padding: 0 0.7rem;
+  }
 
 
 }
 
-@media (max-widht: 330px) {
+@media (max-width: 330px) {
   /* Carousel Design */
   .testimonials-section .carousel-item{
     padding: 13rem 3.125rem;
