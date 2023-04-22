@@ -410,3 +410,22 @@ header nav .container a h1 span{
   color: var(--out-color);
   margin-right: 0.975rem;
 }
+/* 
+====================================
+      section-8 Book Fruits
+====================================
+*/
+.book-food{
+  width: 100%;
+  background: url("images/background/paralex-bg.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+}
+
+.book-food h2{
+  color: var(--out-color);
+}
+
+
