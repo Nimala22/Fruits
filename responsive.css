@@ -31,7 +31,9 @@
 
 
   /* Carousel Design */
-
+  .testimonials-section .carousel-item .carousel-caption p{
+    padding: 0;
+  }
 
 
 }
@@ -61,7 +63,9 @@
 
 
   /* Carousel Design */
-
+  .testimonials-section .carousel-item{
+    padding: 11rem 3.125rem;
+  }
 
   /* newsletter */
 
@@ -74,7 +78,9 @@
 
 @media (max-widht: 330px) {
   /* Carousel Design */
-
+  .testimonials-section .carousel-item{
+    padding: 13rem 3.125rem;
+  }
 
 
   

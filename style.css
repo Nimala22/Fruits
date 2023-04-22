@@ -363,3 +363,40 @@ header nav .container a h1 span{
   font-size: 1rem;
   font-weight: 600;
 }
+/* 
+====================================
+      section-6 Testimonials
+====================================
+*/
+.testimonials-section{
+  background-color: var(--primary-color);
+}
+
+.testimonials-section h2{
+  color: var(--white-color);
+}
+
+.testimonials-section .carousel-item{
+  margin-top: 1rem;
+  padding: 8rem 5.125rem;
+  background-color: var(--white-color);
+  border-radius: 0.9375rem;
+  text-align: center;  
+}
+
+.testimonials-section .carousel-item img{  
+  max-width: 20rem;   
+  border-radius: 15rem 20rem;
+  padding: 1.312rem;
+}
+
+.testimonials-section .carousel-item .carousel-caption h5{
+  font-size: 2rem;
+  color: var(--out-color);  
+}
+
+.testimonials-section .carousel-item .carousel-caption p{  
+  font-size: 1.3125rem;
+  line-height: 2.0687rem;
+  padding: 0 11% 0.625rem;
+}
